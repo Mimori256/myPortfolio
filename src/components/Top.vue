@@ -6,7 +6,7 @@
     <h2>SNS</h2>
     <span id="sns" align="center">
       <p>
-      <a href="https://twitter.com/OkppGbFhZoJQRgL"><img src="@/assets/img/twitter.png" alt="Twitter" width="4%" height="12.5%"></a>
+      <a href="https://twitter.com/OkppGbFhZoJQRgL"><img src="@/assets/img/twitter.png" alt="Twitter" width="64" height="64"></a>
       <a href="https://github.com/Mimori256"><img src="@/assets/img/github.png" alt="GitHub"></a>
       </p>
     </span>
