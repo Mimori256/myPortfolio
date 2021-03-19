@@ -19,6 +19,7 @@ export default new Router({
       path: '/Output',
       name: 'Output',
       component: Output
-    }
+    },
+
   ]
 })

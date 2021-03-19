@@ -4,10 +4,10 @@
     <hr>
     <div class="content" v-for="item of items">
     <h3> {{ item.name }} </h3>
-    <p> {{ item.text }} </p>
+    <div class="text"><p> {{ item.text }} </p></div>
     <p> <a v-bind:href="item.src">ソース(GitHub)</a> </p>
-  </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -27,6 +27,11 @@ export default {
     "name": "Atcoder_tester",
     "text": "Atcoderの問題のサンプルの取得とテストを自動で行う",
     "src": "https://github.com/Mimori256/Atcoder_tester"
+  },
+  {
+    "name": "myPortfolio",
+    "text": "このWebページのこと",
+    "src": "https://github.com/Mimori256/myPortfolio"
   }
   ]
     }
@@ -48,8 +53,16 @@ div.content {
   width: 30%;
 }
 
+div.text {
+  color: gray;
+}
+
+h1 {
+  color: forestgreen;
+}
+
 h3 {
-  color: black;
+  color: mediumseagreen;
   font-weight: bold;
 }
 

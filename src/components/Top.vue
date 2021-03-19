@@ -1,8 +1,7 @@
 <template>
   <div class="top">
     <h1>{{ msg }}</h1>
-    3月から自分の作ったものをまとめておく場所、デザインはまだ終わってない
-    <hr>
+    <p>3月から自分の作ったものをまとめておく場所、デザインはまだ終わってない</p>
     <h2>SNS</h2>
     <span id="sns" align="center">
       <p>
@@ -18,7 +17,7 @@ export default {
   name: 'Top',
   data () {
     return {
-      msg: "ポートフォリオ的な"
+      msg: "ポートフォリオ(製作中)"
     }
   }
 }
@@ -30,7 +29,12 @@ div {
   background-color: white;
   height: 500px;
 }
+
+p {
+  color: gray;
+}
+
 h1 {
-  color: black;
+  color: forestgreen;
 }
 </style>
