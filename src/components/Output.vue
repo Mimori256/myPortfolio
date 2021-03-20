@@ -3,8 +3,9 @@
     <h1>作ったもの一覧</h1>
     <hr>
     <div class="content" v-for="item of items">
-    <h3> {{ item.name }} </h3>
-    <div class="text"><p> {{ item.text }} </p></div>
+      <h3> {{ item.name }} </h3>
+      <div class="text"><p> {{ item.text }} </p></div>
+      <div class="lang"><p> {{ item.lang }} </p></div>
     <p> <a v-bind:href="item.src">ソース(GitHub)</a> </p>
     </div>
   </div>
@@ -20,18 +21,21 @@ export default {
   {
     "name": "Twins-notify",
     "text": "Twinsの掲示板の更新をメールで知らせる",
-    "src" : "https://github.com/Mimori256/Twins-notify-Tutorial"
+    "src" : "https://github.com/Mimori256/Twins-notify-Tutorial",
+    "lang": "GAS"
   },
 
   {
     "name": "Atcoder_tester",
     "text": "Atcoderの問題のサンプルの取得とテストを自動で行う",
-    "src": "https://github.com/Mimori256/Atcoder_tester"
+    "src": "https://github.com/Mimori256/Atcoder_tester",
+    "lang": "Python"
   },
   {
     "name": "myPortfolio",
-    "text": "このWebページのこと",
-    "src": "https://github.com/Mimori256/myPortfolio"
+    "text": "このWebページのこと、アウトプットをまとめている",
+    "src": "https://github.com/Mimori256/myPortfolio",
+    "lang": "Vue",
   }
   ]
     }
@@ -56,6 +60,21 @@ div.content {
 div.text {
   color: gray;
 }
+
+div.lang {
+    display:inline-block;
+    padding: 0.2em 0.5em;
+    margin: 1em 0;
+    color: #FFF;
+    background: green;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+div.lang p {
+    margin: 0; 
+    padding: 0;
+}
+  
 
 h1 {
   color: forestgreen;
