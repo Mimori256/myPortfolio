@@ -35,7 +35,13 @@ export default {
     "name": "myPortfolio",
     "text": "このWebページのこと、アウトプットをまとめている",
     "src": "https://github.com/Mimori256/myPortfolio",
-    "lang": "Vue",
+    "lang": "Vue"
+  },
+  {
+    "name": "pyradio",
+    "text": "mplayerでのインターネットラジオ再生を使いやすくする",
+    "src": "https://github.com/Mimori256/pyradio",
+    "lang": "Python",
   }
   ]
     }
