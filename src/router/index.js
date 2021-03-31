@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import Top from '@/components/Top'
 import Output from '@/components/Output'
+import About from '@/components/About'
 
 Vue.use(Router)
 
@@ -21,5 +22,9 @@ export default new Router({
       component: Output
     },
 
-  ]
+    { path: '/About',
+      name: 'About',
+      component: About
+    },
+    ]
 })

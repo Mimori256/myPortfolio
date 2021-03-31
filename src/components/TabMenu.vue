@@ -17,7 +17,8 @@ export default {
     return {
       items: [
         { title: 'トップ', path: '/' },
-        { title: '作ったもの', path: '/Output' }
+        { title: '作ったもの', path: '/Output' },
+        { title: 'About', path: '/About' }
       ]
     }
   }
