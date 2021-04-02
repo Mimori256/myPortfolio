@@ -6,7 +6,7 @@
     <div class="content" v-for="item of items">
       <h3> {{ item.name }} </h3>
       <div class="text"><p> {{ item.text }} </p></div>
-      <div class="lang"><p> {{ item.lang }} </p></div>
+      <div class="lang" :style="{background: item.color}"><p> {{ item.lang }} </p></div>
     <p> <a v-bind:href="item.src">ソース(GitHub)</a> </p>
     </div>
   </div>
@@ -24,26 +24,30 @@ export default {
     "name": "Twins-notify",
     "text": "Twinsの掲示板の更新をメールで知らせる",
     "src" : "https://github.com/Mimori256/Twins-notify-Tutorial",
-    "lang": "GAS"
+    "lang": "GAS",
+    "color": "gold"
   },
 
   {
     "name": "Atcoder_tester",
     "text": "Atcoderの問題のサンプルの取得とテストを自動で行う",
     "src": "https://github.com/Mimori256/Atcoder_tester",
-    "lang": "Python"
+    "lang": "Python",
+    "color": "blue"
   },
   {
     "name": "myPortfolio",
     "text": "このWebページのこと、アウトプットをまとめている",
     "src": "https://github.com/Mimori256/myPortfolio",
-    "lang": "Vue"
+    "lang": "Vue",
+    "color": "forestgreen"
   },
   {
     "name": "pyradio",
     "text": "mplayerでのインターネットラジオ再生を使いやすくする",
     "src": "https://github.com/Mimori256/pyradio",
     "lang": "Python",
+    "color": "blue"
   }
   ]
     }
@@ -80,7 +84,7 @@ div.lang {
 }
 div.lang p {
     margin: 0; 
-    padding: 0;
+    padding: 0 0.1em 0 0;
 }
   
 

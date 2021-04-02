@@ -8,13 +8,13 @@
       </p>
     </div>
     <div class="time">
-      <p>最終更新日: 2021/03/31</p>
+      <p>最終更新日: 2021/04/02</p>
     </div>
   </div>
   </transition>
 </template>
 
-<style>
+<style scoped>
   
   h1 {
       color: forestgreen;
