@@ -48,6 +48,13 @@ export default {
     "src": "https://github.com/Mimori256/pyradio",
     "lang": "Python",
     "color": "blue"
+  },
+  {
+    "name": "TwinC",
+    "text": "TWINSのCSVデータをics形式に変換する",
+    "src": "https://github.com/Mimori256/twinc",
+    "lang": "Vue",
+    "color": "forestgreen"
   }
   ]
     }
